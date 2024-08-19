@@ -75,15 +75,15 @@ class _NinjaCardState extends State<NinjaCard> {
                 fontWeight: FontWeight.bold
               )
             ),
-            SizedBox(height: 30.0),
-            Text(
-              'CURRENT NINJA LEVEL',
-              style: TextStyle(
-                color: Colors.grey,
-                letterSpacing: 2.0,
-
-              )
-            ),
+            // SizedBox(height: 30.0),
+            // Text(
+            //   'CURRENT NINJA LEVEL',
+            //   style: TextStyle(
+            //     color: Colors.grey,
+            //     letterSpacing: 2.0,
+            //
+            //   )
+            // ),
             SizedBox(height:10.0),
             Text(
               '$ninjaLevel',
